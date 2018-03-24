@@ -2,11 +2,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: #f995ce
+}
+
 // make all images responsive by default
 img {
   @extend .img-responsive;
   margin: 0 auto;
   }
+
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
@@ -15,6 +20,9 @@ img {
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral
+.well {
+   background-color: #f995ce
+}
 .column {
   @extend .col-md-6;
   @extend .text-center;
@@ -35,7 +43,7 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
+  background-color: #96ebff;
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
