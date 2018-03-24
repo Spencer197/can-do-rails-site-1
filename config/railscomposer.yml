@@ -7,8 +7,8 @@ development:
   prod_webserver: puma
   database: sqlite
   templates: erb
-  tests: rspec
-  continuous_testing: none
+  tests: none
+  continuous_testing: 
   frontend: bootstrap3
   email: none
   authentication: false
@@ -17,7 +17,7 @@ development:
   authorization: false
   form_builder: none
   pages: about
-  layouts: stylish_portfolio
+  layouts: small_business
   locale: none
   analytics: 
   deployment: 
